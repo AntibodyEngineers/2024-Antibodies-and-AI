@@ -8,8 +8,8 @@ Architecture
     flowchart TD
     
     A[Small Instance] --> B[Add admin user / software]
-    A,B-->C[Image] --> D[New instance]
-
+    A-->C[Image] --> D[New instance]
+    E[Data volume]
 ```
 
 # Create an instance
