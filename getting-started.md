@@ -11,7 +11,7 @@ Architecture
     A-->C[Image] --> D[New instance<br/>64 CPU/60GB boot]
     E[Data volume]
     E -- attach --> D
-    E-->F[Add data, lots of data] --> G [Detach] --> [Reattach to another instance]
+    E-->F[Add data, lots of data] --> G[Detach] --> H[Reattach to another instance]
 ```
 
 # Create an instance
