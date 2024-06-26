@@ -7,7 +7,7 @@ Architecture
 ```mermaid
     flowchart TD
     
-    B[Small Instance] <-- A[Admin user, software]
+    B[Small Instance]<--A[Admin user, software]
     B -->C{complete?}
     C-->|Yes|D[Exploration]
     C-->|No|A
