@@ -8,11 +8,11 @@ Architecture and example possiblities
     graph TD
     
     A[Small Instance<br/>1 CPU/20GB boot] --> B[Add admin user / software]
-    A-->C[Image] --> D[New instance<br/>64 CPU/60GB boot]
+    A --> C[Image] --> D[New instance<br/>64 CPU/60GB boot]
     E[/Data volume/]
-    E -- attach --> D
+    E -- attach --> C
     C --> F[Another instance]
-    E-->F[/Add data, lots of data/] -- detach --> G[/Reattach to another instance/]
+    E --> F[/Add lots of data/] -- detach --> G[/Reattach to another instance/]
 ```
 
 # Create an instance
