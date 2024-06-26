@@ -9,10 +9,10 @@ Architecture and example possiblities
     
     A[Small Instance<br/>1 CPU/20GB boot] --> B[Add admin user / software]
     A-->C[Image] --> D[New instance<br/>64 CPU/60GB boot]
-    F[/Data volume/]
-    F -- attach --> D
-    C --> E[Another instance]
-    F-->G[/Add data, lots of data/] -- detach --> H[/Reattach to another instance/]
+    E[/Data volume/]
+    E -- attach --> D
+    C --> F[Another instance]
+    E-->F[/Add data, lots of data/] -- detach --> G[/Reattach to another instance/]
 ```
 
 # Create an instance
