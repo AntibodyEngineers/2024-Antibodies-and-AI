@@ -14,7 +14,7 @@ An image can be created from this instance and later used to launch new instance
     E[/Data volume/]
     E -- attach --> C
     C --> H[Other instances<br/>...]
-    F[/Add lots of data/] --> E -.- detach -.-> G[/Reattach to another instance/] -.-> H
+    F[/Add lots of data/] --> E -- detach -.-> G[/Reattach to another instance/] -.-> H
 ```
 
 # Create an instance
