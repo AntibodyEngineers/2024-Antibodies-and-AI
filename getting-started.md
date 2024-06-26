@@ -12,9 +12,9 @@ An image can be created from this instance and later used to launch new instance
     A --> I[resize]
     A --> C[Image] --> D[New instance<br/>64 CPU/60GB boot]
     E[/Data volume/]
-    E -- attach --> C
+    E -- attach --> A
     C --> H[Other instances<br/>...]
-    F[/Add lots of data/] --> E -. detach .-> G[/Reattach to another instance/] -.-> H
+    F[/Add lots of data/] --> A -. detach .-> G[/Reattach to another instance/] -.-> H
 ```
 
 # Create an instance
