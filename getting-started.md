@@ -10,7 +10,7 @@ Architecture
     A[Small Instance] --> B[Add admin user / software]
     A-->C[Image] --> D[New instance]
     E[Data volume]
-    E --> D[attach]
+    E -- attach --> D
 ```
 
 # Create an instance
