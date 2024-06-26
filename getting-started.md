@@ -154,7 +154,7 @@ df.shape
 ```
 Should give (500, 96).
 
-Notes & Gotchas:
+Notes
 - A common error is "Germline annotation database human/human_V could not be found in [internal_data] directory." This results from IGDATA not being set correctly. In the past I had IGDATA='/usr/local/igblast/bin' and moved internal_data and optional_file into the bin dir, which seems odd. This time, after encountering the error, again, I set IGDATA='/usr/local/igblast' and kept internal_data and optional_file in place. Works fine.
 - igblast dbs are in /usr/local/igblast/igblastdbs, but they can be anywhere as long as their path is specified.
 - if running igblastn from the command line, the IGDATA enviorment variable needs to be set
