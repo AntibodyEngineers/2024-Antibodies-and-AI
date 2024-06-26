@@ -7,22 +7,9 @@ Architecture
 ```mermaid
     flowchart TD
     
-    B[Small Instance]<--A[Admin user, software]
-    B -->C{complete?}
-    C-->|Yes|D[Exploration]
-    C-->|No|A
-    D --> E[Charts]
-    D --> F[Impute]
-    E --> G[Aggregate]
-    F --> G
-    G --> H[Model]
-    H --> I[Feature Engineering]
-    I --> J[Train/Test]
-    I --> K[Tune]
-    K --> J
-    J --> L[Predict]
-    L --> M[Operationalize]
-    M --> N[Monitor]
+    A[Small Instance] <-- B[Admin user, software]
+    A-->C[Image] --> D[New instance]
+
 ```
 
 # Create an instance
