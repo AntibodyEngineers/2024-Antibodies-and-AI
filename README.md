@@ -5,4 +5,4 @@ Work will build on:
 - https://github.com/AntibodyEngineers/immune-profiling
 - https://github.com/AntibodyEngineers/covid-not-covid
 
-For getting started with Jetstream see: https://github.com/AntibodyEngineers/immune-profiling/blob/main/getting-started.md
+For getting started with Jetstream see: [getting started](/getting-started.md)
