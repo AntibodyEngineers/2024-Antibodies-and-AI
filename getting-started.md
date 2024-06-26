@@ -127,7 +127,7 @@ sudo cp ncbi-igblast-VERSION/bin/* /usr/local/bin
 sudo mv ncbi-igblast-VERSION igblast # simplifies things (see below)
 cd; igblastn -h # test, should get usage 
 ```
-3. Set enviorment variables see [igBLAST gotchas](#Gotchas)
+3. Set enviorment variables see [igBLAST gotchas](#Notes-&-Gotchas)  
 add c.Spawner.environment = {'IGDATA': '/usr/local/igblast'} to /opt/jupyterhub/etc/jupyterhub/jupyter_config.py:
 ```
 sudo systemctl restart jupyterhub.service # load the updated file
