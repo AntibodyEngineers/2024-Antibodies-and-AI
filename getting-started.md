@@ -2,6 +2,29 @@ Basic commands and websites for building a Jetstream instance from sctratch. Giv
 
 An image can be created from this instance and later used to launch new instances for projects. These new instanced can be much larger, up to 64-cpus. If more than 20GB are needed to installing software, the next "size" that accomidates larger boot disks is eight CPUs. Larger boot disks can be specified, but they will count against the standard 1TB disk allocation. The defalt boot disk does not subtract from allocations, hence it is desirable to use the defaults. 
 
+Architecture
+
+```mermaid
+    flowchart LR
+    
+    A[Small Instance] <-- B[Admin user, software]
+    B -->C{complete?}
+    C-->|Yes|D[Exploration]
+    C-->|No|A
+    D --> E[Charts]
+    D --> F[Impute]
+    E --> G[Aggregate]
+    F --> G
+    G --> H[Model]
+    H --> I[Feature Engineering]
+    I --> J[Train/Test]
+    I --> K[Tune]
+    K --> J
+    J --> L[Predict]
+    L --> M[Operationalize]
+    M --> N[Monitor]
+```
+
 # Create an instance
 1. In the allocation overview, select Create > Instance from the Create Menu
 2. Select an OS Ubuntu / RedHat
