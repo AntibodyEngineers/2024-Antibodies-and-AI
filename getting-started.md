@@ -127,8 +127,7 @@ sudo cp ncbi-igblast-VERSION/bin/* /usr/local/bin
 sudo mv ncbi-igblast-VERSION igblast # simplifies things (see below)
 cd; igblastn -h # test, should get usage 
 ```
-3. Prepare the reference database (TBD, see https://digitalworldbiology.com/blog/how-bioinformatician-odysseus)
-4. Set enviorment variables - igBLAST gotchas
+3. Set enviorment variables see [igBLAST gotchas](#Gotchas)
 add c.Spawner.environment = {'IGDATA': '/usr/local/igblast'} to /opt/jupyterhub/etc/jupyterhub/jupyter_config.py:
 ```
 sudo systemctl restart jupyterhub.service # load the updated file
@@ -155,7 +154,7 @@ df.shape
 ```
 Should give (500, 96).
 
-Notes:
+Notes & Gotchas:
 - A common error is "Germline annotation database human/human_V could not be found in [internal_data] directory." This results from IGDATA not being set correctly. In the past I had IGDATA='/usr/local/igblast/bin' and moved internal_data and optional_file into the bin dir, which seems odd. This time, after encountering the error, again, I set IGDATA='/usr/local/igblast' and kept internal_data and optional_file in place. Works fine.
 - igblast dbs are in /usr/local/igblast/igblastdbs, but they can be anywhere as long as their path is specified.
 - if running igblastn from the command line, the IGDATA enviorment variable needs to be set
