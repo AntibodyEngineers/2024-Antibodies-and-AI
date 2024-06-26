@@ -41,7 +41,7 @@ Goal is to have system wide packages that can be used from python command lines,
 1. [Python](#Python)
 2. [Jupyterlab](#Jupyterlab)
 3. [igBLAST](#igBLAST)
-4. [Datascience packages](#Datascience-packages)
+4. [Data science packages](#Data-science-packages)
 5. [Issues and Learning](#Issues-and-Learning)
 
 ### Python
@@ -193,7 +193,7 @@ fastp -i SRR4431764_1t.fastq -I SRR4431764_2t.fastq -m --merged_out SRR4431764me
 paste - - - - < SRR4431764merged30t.fastq | cut -f 1,2 | sed 's/^@/>/' | tr "\t" "\n" > SRR4431764merged30t.fa
 ```
 
-### Datascience packages
+### Data science packages
 Log into JupterLab - via URL:8000, start a notebook. 
 
 Test via import sys and pip. Pip returns
