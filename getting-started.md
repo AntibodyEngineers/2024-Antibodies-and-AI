@@ -7,7 +7,7 @@ Architecture
 ```mermaid
     flowchart TD
     
-    A[Small Instance] <-- B[Admin user, software]
+    A[Small Instance] <-- B[Add admin user and software]
     A-->C[Image] --> D[New instance]
 
 ```
