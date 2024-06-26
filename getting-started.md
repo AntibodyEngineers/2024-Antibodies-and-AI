@@ -13,7 +13,7 @@ An image can be created from this instance and later used to launch new instance
     A --> C[Image] --> D[New instance<br/>64 CPU/60GB boot]
     E[/Data volume/]
     E -- attach --> C
-    C --> H[Another instance]
+    C --> H[Other instances<br/>...]
     F[/Add lots of data/] --> E -- detach --> G[/Reattach to another instance/]
 ```
 
