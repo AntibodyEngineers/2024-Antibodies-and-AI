@@ -11,7 +11,7 @@ Architecture and example possiblities
     A --> C[Image] --> D[New instance<br/>64 CPU/60GB boot]
     E[/Data volume/]
     E -- attach --> C
-    C --> F[Another instance]
+    C --> H[Another instance]
     E --> F[/Add lots of data/] -- detach --> G[/Reattach to another instance/]
 ```
 
