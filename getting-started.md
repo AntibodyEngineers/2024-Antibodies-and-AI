@@ -12,7 +12,7 @@ Architecture and example possiblities
     F[/Data volume/]
     F -- attach --> D
     C --> E[Another instance]
-    F-->G[/Add data, lots of data/] -- detach --> H[Reattach to another instance]
+    F-->G[/Add data, lots of data/] -- detach --> H[/Reattach to another instance/]
 ```
 
 # Create an instance
