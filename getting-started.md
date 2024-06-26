@@ -7,7 +7,7 @@ Architecture and example possiblities
 ```mermaid
     graph TD
     
-    A[Small Instance<br/>1 CPU/20GB boot] <-- B[Add admin user / software]
+    A[Small Instance<br/>1 CPU/20GB boot] --> B[Add admin user / software]
     A-->C[Image] --> D[New instance<br/>64 CPU/60GB boot]
     E[/Data volume/]
     E -- attach --> D
