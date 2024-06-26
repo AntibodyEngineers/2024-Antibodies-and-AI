@@ -5,7 +5,7 @@ An image can be created from this instance and later used to launch new instance
 Architecture and example possiblities
 
 ```mermaid
-    flowchart TD
+    graph TD
     
     A[Small Instance<br/>1 CPU/20GB boot] --> B[Add admin user / software]
     A-->C[Image] --> D[New instance<br/>64 CPU/60GB boot]
