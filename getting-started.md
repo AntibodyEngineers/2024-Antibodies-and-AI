@@ -5,7 +5,7 @@ An image can be created from this instance and later used to launch new instance
 Architecture
 
 ```mermaid
-    flowchart LR
+    flowchart TD
     
     A[Small Instance] <-- B[Admin user, software]
     B -->C{complete?}
