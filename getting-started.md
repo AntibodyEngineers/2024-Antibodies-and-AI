@@ -2,7 +2,7 @@ Basic commands and websites for building a Jetstream instance from sctratch. Giv
 
 An image can be created from this instance and later used to launch new instances for projects. These new instanced can be much larger, up to 64-cpus. If more than 20GB are needed to installing software, the next "size" that accomidates larger boot disks is eight CPUs. Larger boot disks can be specified, but they will count against the standard 1TB disk allocation. The defalt boot disk does not subtract from allocations, hence it is desirable to use the defaults. 
 
-Architecture
+Architecture and example possiblities
 
 ```mermaid
     flowchart TD
@@ -11,6 +11,7 @@ Architecture
     A-->C[Image] --> D[New instance<br/>64 CPU/60GB boot]
     E[Data volume]
     E -- attach --> D
+    C --> I[Another instance]
     E-->F[Add data, lots of data] --> G[Detach] --> H[Reattach to another instance]
 ```
 
