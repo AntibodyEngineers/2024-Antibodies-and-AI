@@ -1,7 +1,7 @@
 # Setting up a Jetstream Instance
-Basic commands and websites for building a Jetstream instance from sctratch. Given Jetstream's flexibilty in creating images, instances, and resizing, a strategy to conserve SUs is to create a small instance (one cpu) and install the software and core users (admin). SUs are charged by the number of cores X hours they are run. In other words, a single CPU instance on a 200,000 SU allocation can be run for 200,000 hours. That's a lot of hours. 
+Given Jetstream's flexibility in creating images, instances, and resizing, a strategy to conserve Service Units (SUs) is to create a small instance (one CPU) and install the necessary software and core users (admin). SUs are charged based on the number of cores multiplied by the hours they are run. For example, a single CPU instance on a 200,000 SU allocation can run for 200,000 hours, which provides a substantial amount of usage time.
 
-An image can be created from this instance and later used to launch new instances for projects. These new instanced can be much larger, up to 64-cpus. If more than 20GB are needed to installing software, the next "size" that accomidates larger boot disks is eight CPUs. Larger boot disks can be specified, but they will count against the standard 1TB disk allocation. The defalt boot disk does not subtract from allocations, hence it is desirable to use the defaults. 
+An image can be created from this instance and later used to launch new instances for projects. These new instances can be much larger, up to 64 CPUs. If more than 20GB are needed to install software, the next size that accommodates larger boot disks is eight CPUs. Larger boot disks can be specified, but they will count against the standard 1TB disk allocation. The default boot disk does not subtract from allocations, hence it is desirable to use the defaults.
 
 **Architecture and examples**
 
