@@ -170,7 +170,7 @@ source .bashrc
 ```
 
 #### Reference Sequences
-igBLAST compares sequences from immuneprofiling to reference V, J, D, sequences from Ig and TCR genes that are optained from the IGMT (ImMunoGeneTics, https://www.imgt.org) International Immunogenetics Information System. The IGMT currates these data for many different species and are available at: https://www.imgt.org/vquest/refseqh.html#VQUEST. Our hackathon focuses on human data and the respective sequences are downloaded using the curl program.
+igBLAST compares sequences from immuneprofiling to reference V, J, D, sequences from Ig and TCR genes that are optained from the IGMT (ImMunoGeneTics, https://www.imgt.org) International Immunogenetics Information System. The IGMT currates these data for many different species and are available at: https://www.imgt.org/vquest/refseqh.html#VQUEST. Our hackathon focuses on human data and the respective sequences are downloaded using curl.
 ```
 curl https://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Homo_sapiens/IG/IGHV.fasta > IGHV.fasta
 curl https://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Homo_sapiens/IG/IGHD.fasta > IGHD.fasta
@@ -201,7 +201,7 @@ makeblastdb -parse_seqids -dbtype nucl -in IGD
 makeblastdb -parse_seqids -dbtype nucl -in IGJ
 ```
 #### fastp, input data
-Input data, in fastq format, often needs to be merged and trimmed proir to annotating with igBLAST. This is due to the nuances of how the data are collected. The program fastp, available at (https://github.com/OpenGene/fastp), is often used for this purpose. Prebuilt binaries (centOS/Ubuntu) can be installed via:
+Input data, in fastq format, often needs to be merged and trimmed proir to annotating with igBLAST. This is due to the nuances of how the data are collected. The program fastp, available at (https://github.com/OpenGene/fastp), is one of many that can be used for this purpose. Prebuilt binaries (centOS/Ubuntu) can be installed via:
 ```
 wget http://opengene.org/fastp/fastp
 chmod a+x ./fastp
@@ -215,7 +215,7 @@ paste - - - - < SRR4431764merged30t.fastq | cut -f 1,2 | sed 's/^@/>/' | tr "\t"
 ```
 
 ### Data science packages
-Log into JupterLab - via URL:8000, start a notebook. 
+Log into JupterLab - via URL:8000, to start a notebook. 
 
 Test via import sys and pip. Pip returns
 ```
