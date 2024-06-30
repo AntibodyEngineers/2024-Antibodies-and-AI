@@ -42,7 +42,7 @@ Ubuntu 22 (default) has Python 3.10.22 and pip 22.0.2. apt-get is also installed
    ```
    sudo userdel -r username # -r removes the directory, email ...
    ```
-4. Add that user to the sudoers list (see: https://linuxize.com/post/how-to-add-user-to-sudoers-in-ubuntu)
+4. Add that user to the sudoers list (see: [How to add user to sudoers in ubuntu](https://linuxize.com/post/how-to-add-user-to-sudoers-in-ubuntu))
    ```
    sudo usermod -aG sudo username
    ```
