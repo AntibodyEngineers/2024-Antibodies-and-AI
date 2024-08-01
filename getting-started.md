@@ -28,7 +28,7 @@ Ubuntu 22 (default) has Python 3.10.22 and pip 22.0.2. apt-get is also installed
 
 # Configure the instance
 ## Add Users
-1. Log in via the exouser account - SSH ID and password are on the instance page.
+1. Log in via the exouser account - SSH ID and password are on the instance page. Launching the web shell is another option. Exouser is immediately logged in. 
 2. Use the sudo adduser commands (see: [How to Create Users in Linux Using the useradd Command](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command)) to add the admin user. Log in as 'exouser' (name, password are on the configuration parameters page). Start by setting the default shell for users:
    ```
    sudo useradd -D -s /usr/bin/bash
