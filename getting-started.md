@@ -29,11 +29,11 @@ Ubuntu 22 (default) has Python 3.10.22 and pip 22.0.2. apt-get is also installed
 # Configure the instance
 ## Add Users
 1. Log in via the exouser account - SSH ID and password are on the instance page. Launching the web shell is another option. Exouser is immediately logged in. 
-2. Use the sudo adduser commands (see: [How to Create Users in Linux Using the useradd Command](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command)) to add the admin user. Log in as 'exouser' (name, password are on the configuration parameters page). Start by setting the default shell for users:
+2. Use the sudo adduser commands (see: [How to Create Users in Linux Using the useradd Command](https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command)) to add the admin user. Start by setting the default shell for users:
    ```
    sudo useradd -D -s /usr/bin/bash
    ```
-   Then:
+   Then, add the first user:
    ```
    sudo useradd -m username
    sudo passwd username # enter a password
@@ -42,16 +42,15 @@ Ubuntu 22 (default) has Python 3.10.22 and pip 22.0.2. apt-get is also installed
    ```
    sudo userdel -r username # -r removes the directory, email ...
    ```
-4. Add that user to the sudoers list (see: [How to add user to sudoers in ubuntu](https://linuxize.com/post/how-to-add-user-to-sudoers-in-ubuntu))
+4. Add the admin user to the sudoers list (see: [How to add user to sudoers in ubuntu](https://linuxize.com/post/how-to-add-user-to-sudoers-in-ubuntu))
    ```
    sudo usermod -aG sudo username
    ```
-   Test
+   check
    ```
-   su username
-   sudo whoami
+   getent group sudo
    ```
-   should get "root"
+   sudo:x:27:ubuntu,exouser,[admin users]
 
 ## Core software
 Goal is to have system wide packages that can be used from python command lines, the python enviroment, and jupyter notebooks. Administators (tech leads and sudoers) can install packages for other in hackathons. This way the disk does not fill with packages in individual user accounts. 
