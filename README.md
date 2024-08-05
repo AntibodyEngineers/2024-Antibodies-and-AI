@@ -1,5 +1,8 @@
 # 2024-Antibodies-and-AI
 
+## Motivation and background
+In our immune system, antibody plays an important role in identifying and neutralizing fortein invaders, such as pollen, viruses, and bacteria. These Y-shaped proteins are produced by B cells and also called immunoglobulins.  
+
 Work will build on:
 - [A Gentle Introduction to ML/AI as Applied to Antibody Engineering](https://github.com/NCBI-Codeathons/mlxai-2024-team-smith)
 - [2023 Immune-profiling](https://github.com/AntibodyEngineers/2023-immune-profiling)
