@@ -7,6 +7,7 @@ Adventures with the instances once setup
 ### Python
 !pip vs pip in jupyter notebooks  
 ## Conda
+Tried to avoid - needed for RFDiffusion
 Annaconda  
 get the latest -   
 https://www.anaconda.com/download - requires email  
