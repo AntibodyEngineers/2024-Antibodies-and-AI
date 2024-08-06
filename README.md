@@ -15,8 +15,7 @@ For adventures after getting started see: [caveats](/caveats.md)
 
 ```mermaid
     flowchart TD
-    Two subprojects
-    A B
+    A[Immune Profiling & Gene Expression] B[ML-Based Receptor Classification]
 ```
 
 Citations:  
