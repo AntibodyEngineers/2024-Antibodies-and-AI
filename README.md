@@ -10,7 +10,8 @@ Work will build on:
 - [2023 Immune-profiling](https://github.com/AntibodyEngineers/2023-immune-profiling)
 - [2022 COVID-not-COVID](https://github.com/AntibodyEngineers/2022-covid-not-covid)
 
-For getting started with Jetstream see: [getting started](/getting-started.md)
+For getting started with Jetstream see: [getting started](/getting-started.md)  
+For adventures after getting started see: [caveats](/caveats.md)  
 
 
 Citations:  
