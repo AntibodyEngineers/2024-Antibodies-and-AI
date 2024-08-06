@@ -13,6 +13,7 @@ Work will build on:
 For getting started with Jetstream see: [getting started](/getting-started.md)  
 For adventures after getting started see: [caveats](/caveats.md)  
 
+## Projects
 ```mermaid
 block-beta
     columns 2
