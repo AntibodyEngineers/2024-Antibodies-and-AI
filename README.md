@@ -14,7 +14,9 @@ For getting started with Jetstream see: [getting started](/getting-started.md)
 For adventures after getting started see: [caveats](/caveats.md)  
 
 ```mermaid
-  flowchart TD
+    flowchart TD
+    Two subprojects
+    A B
 ```
 
 Citations:  
