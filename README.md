@@ -15,8 +15,8 @@ For adventures after getting started see: [caveats](/caveats.md)
 
 ```mermaid
 block-beta
-columns 2
-    A[Immune Profling & Gene Expression] B[ML-base Receptor Classification]
+    columns 2
+    A["Immune Profling & Gene Expression"] B["ML-base Receptor Classification"]
  
 ```
 
