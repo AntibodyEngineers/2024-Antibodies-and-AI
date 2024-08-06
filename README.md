@@ -14,8 +14,10 @@ For getting started with Jetstream see: [getting started](/getting-started.md)
 For adventures after getting started see: [caveats](/caveats.md)  
 
 ```mermaid
-    flowchart TD
-    A[Immune Profiling & Gene Expression] B[ML-Based Receptor Classification]
+block-beta
+columns 2
+    A[Immune Profling & Gene Expression] B[ML-base Receptor Classification]
+ 
 ```
 
 Citations:  
