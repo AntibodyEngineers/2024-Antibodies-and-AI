@@ -6,7 +6,7 @@ In our immune system, antibody plays an important role in identifying and neutra
 However, developing antibodies that can effectively target new or evolving pathogens is a complex and time-consuming process. Traditionally, developing effective antibodies is a labor intensive process and often need to screen thousands of potential antibodies to find ones that effectively bind to and neutralize a target pathogen. By leveraging the AI, we aim to accelerate the discovery and optimization of antibodies. 
 
 
-# Workflow chart for AI-Driven Antibody Design: Enhancing CoV-AbDab with Diffusion Models and Machine Learning
+## Workflow chart for AI-Driven Antibody Design: Enhancing CoV-AbDab with Diffusion Models and Machine Learning
 
 ```mermaid
 graph TD
