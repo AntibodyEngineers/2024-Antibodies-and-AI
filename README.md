@@ -1,5 +1,17 @@
 # 2024-Antibodies-and-AI
 
+## Team
+|Role|Contributor|Affiliation|
+|----------|----------|----------|
+|Subteam Lead|Todd Smith|Digital World Biology, LLC|
+|Developer|Timothy Brugarolas|Pasadena City College|
+|Developer, Writer|Wengang Zhang|National Cancer Institute|
+|Developer|Vee Xu|Gladstone Institutes|
+|Subteam Lead|Eric Olson|Chinook Therapeutics|
+|Developer, Writer|Benjamin Bekey|Pasadena City College|
+|Developer, Co-writer|Samhita Gopalan|University of Washington|
+|Developer|Jack Lin|Unaffiliated|
+
 ## Motivation and background
 In our immune system, antibody plays an important role in identifying and neutralizing fortein invaders, such as pollen, viruses, and bacteria. These Y-shaped proteins are produced by B cells and also called immunoglobulins (Igs). The tips of the Y-shaped structure form the "variable region" or complementarity-determining regions (CDRs), which is highly specific to a particular antigen (the foreign substance). The rest of the structure, known as the "constant region," determines the antibody's class (IgG, IgA, IgM, etc.). The variable regions (CDRs) of an antibody have unique sequences and structure that bind to specific epitopes (the part of an antigen recognized by the immune system). This binding is highly specific, akin to a lock and key mechanism. Once an antibody binds to its antigen, it can neutralize the threat directly (e.g., by blocking a virus from entering cells) or mark it for destruction by other immune cells. Beyond their role in immunity, antibodies are widely used in research, diagnostics, and therapy. Monoclonal antibodies, for instance, are engineered to target specific proteins in diseases like cancer or autoimmune disorders. 
 
