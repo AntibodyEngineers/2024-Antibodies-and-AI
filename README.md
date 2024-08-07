@@ -22,7 +22,7 @@ graph TD
     H --> I[ProteinMPNN: Generate Sequences]
     I --> J[Generate Sequences]
     
-    K --> E
+    J --> E
     E -->|Neutralizing| M[Candidate for Screening]
     E -->|Non-neutralizing| N[Discard]
     M --> O[Output: Neutralizing Antibody Candidates]
