@@ -5,6 +5,33 @@ In our immune system, antibody plays an important role in identifying and neutra
 
 However, developing antibodies that can effectively target new or evolving pathogens is a complex and time-consuming process. Traditionally, developing effective antibodies is a labor intensive process and often need to screen thousands of potential antibodies to find ones that effectively bind to and neutralize a target pathogen. By leveraging the AI, we aim to accelerate the discovery and optimization of antibodies. 
 
+
+# Workflow chart for AI-Driven Antibody Design: Enhancing CoV-AbDab with Diffusion Models and Machine Learning
+
+```mermaid
+graph TD
+    A[Start] --> B[Input: CoV-AbDab Dataset]
+    B --> C[Module 1: ML Modeling]
+    C --> D[Pre-trained Ablang2 Model]
+    D --> E{Predict: Neutralizing or Non-neutralizing}
+    
+    B --> F[Module 2: Sequence Diversification]
+    F --> G[Select Neutralizing Antibody Structure]
+    G --> H[RFDiffusion: Partial Diffusion Module]
+    H --> I[Diversify Structure]
+    I --> J[ProteinMPNN]
+    J --> K[Generate Sequences for Diversified Structures]
+    
+    K --> L[Feed Diversified Sequences back to Module 1]
+    L --> E
+    
+    E -->|Neutralizing| M[Candidate for Screening]
+    E -->|Non-neutralizing| N[Discard]
+    
+    M --> O[Output: Neutralizing Antibody Candidates]
+    O --> P[End]
+```
+
 Work will build on:
 - [A Gentle Introduction to ML/AI as Applied to Antibody Engineering](https://github.com/NCBI-Codeathons/mlxai-2024-team-smith)
 - [2023 Immune-profiling](https://github.com/AntibodyEngineers/2023-immune-profiling)
