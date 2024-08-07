@@ -12,24 +12,24 @@ However, developing antibodies that can effectively target new or evolving patho
 graph TD
     A[Start] --> B[Input: CoV-AbDab Dataset]
     B --> C[Module 1: ML Modeling]
+    B --> F[Module 2: Sequence Diversification]
+    
     C --> D[Pre-trained Ablang2 Model]
     D --> E{Predict: Neutralizing or Non-neutralizing}
     
-    B --> F[Module 2: Sequence Diversification]
-    F --> G[Select Neutralizing Antibody Structure]
-    G --> H[RFDiffusion: Partial Diffusion Module]
-    H --> I[Diversify Structure]
-    I --> J[ProteinMPNN: Sequence Generation]
-    J --> K[Generate Sequences for Diversified Structures]
+    F --> G[Select Neutralizing Antibody]
+    G --> H[RFDiffusion: Partial Diffusion: Diversify Structure]
+    H --> I[ProteinMPNN: Generate Sequences]
+    I --> J[Generate Sequences]
     
-    K --> L[Feed Diversified Sequences back to Module 1]
-    L --> E
-    
+    K --> E
     E -->|Neutralizing| M[Candidate for Screening]
     E -->|Non-neutralizing| N[Discard]
-    
     M --> O[Output: Neutralizing Antibody Candidates]
     O --> P[End]
+
+    classDef module fill:#f9f,stroke:#333,stroke-width:2px;
+    class C,F module;
 ```
 
 Work will build on:
