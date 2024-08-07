@@ -19,7 +19,7 @@ graph TD
     F --> G[Select Neutralizing Antibody Structure]
     G --> H[RFDiffusion: Partial Diffusion Module]
     H --> I[Diversify Structure]
-    I --> J[ProteinMPNN]
+    I --> J[ProteinMPNN: Sequence Generation]
     J --> K[Generate Sequences for Diversified Structures]
     
     K --> L[Feed Diversified Sequences back to Module 1]
