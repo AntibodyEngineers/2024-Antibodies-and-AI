@@ -3,11 +3,11 @@
 ## Team
 |Role|Contributor|Affiliation|
 |----------|----------|----------|
-|Subteam Lead|Todd Smith|Digital World Biology, LLC|
+|Subteam Lead (AI/ML)|Todd Smith|Digital World Biology, LLC|
 |Developer|Timothy Brugarolas|Pasadena City College|
 |Developer, Writer|Wengang Zhang|National Cancer Institute|
 |Developer|Vee Xu|Gladstone Institutes|
-|Subteam Lead|Eric Olson|Chinook Therapeutics|
+|Subteam Lead (Gene Expression)|Eric Olson|Chinook Therapeutics|
 |Developer, Writer|Benjamin Bekey|Pasadena City College|
 |Developer, Co-writer|Samhita Gopalan|University of Washington|
 |Developer|Jack Lin|Unaffiliated|
