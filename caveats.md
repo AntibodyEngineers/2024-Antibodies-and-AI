@@ -39,6 +39,8 @@ conda list
 get list of installed packages  
 
 Gotta figure out .bashrc
-
+## CUDA
+Challenges with different versions, and GPUs - 
+Software will have dependencies for specific versions. 
 
 
