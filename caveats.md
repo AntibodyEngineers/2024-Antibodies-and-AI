@@ -2,6 +2,13 @@
 Adventures with the instances once setup
 ## Disk space
 .local  
+### caveat caveat
+deleting .local will also delete the python kernal.json file, which will make the kernal throw and error. Fix by restarting the jupyterhub.service deamon. 
+```
+sudo systemctl stop jupyterhub.service
+sudo systemctl start jupyterhub.service
+```
+ 
 .cache
 ### RStudio
 ### Python
