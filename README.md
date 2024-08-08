@@ -10,23 +10,34 @@
 
 <br>
 
-## Team Roster: Immune Profiling and Gene Expression
+## Team Roster: Immune Profiling & Gene Expression
 |Role|Contributor|Affiliation|
 |----------|----------|----------|
 |Team Lead|Eric Olson|Chinook Therapeutics|
 |Developer, Writer|Benjamin Bekey|Pasadena City College|
-|Developer, Co-writer|Samhita Gopalan|University of Washington|
+|Developer, Co-Writer|Samhita Gopalan|University of Washington|
 |Developer|Jack Lin|Unaffiliated|
 
 <br>
 
-## Motivation and background
-In our immune system, antibody plays an important role in identifying and neutralizing fortein invaders, such as pollen, viruses, and bacteria. These Y-shaped proteins are produced by B cells and also called immunoglobulins (Igs). The tips of the Y-shaped structure form the "variable region" or complementarity-determining regions (CDRs), which is highly specific to a particular antigen (the foreign substance). The rest of the structure, known as the "constant region," determines the antibody's class (IgG, IgA, IgM, etc.). The variable regions (CDRs) of an antibody have unique sequences and structure that bind to specific epitopes (the part of an antigen recognized by the immune system). This binding is highly specific, akin to a lock and key mechanism. Once an antibody binds to its antigen, it can neutralize the threat directly (e.g., by blocking a virus from entering cells) or mark it for destruction by other immune cells. Beyond their role in immunity, antibodies are widely used in research, diagnostics, and therapy. Monoclonal antibodies, for instance, are engineered to target specific proteins in diseases like cancer or autoimmune disorders. 
+## Motivation and Background
+In our immune system, antibodies play an important role in identifying and neutralizing foreign invaders such as pollen, viruses, and bacteria. These Y-shaped proteins are produced by B-cells, also known as immunoglobins (Igs). The tips of the Y-shaped structure form the "variable region" or complementarity-determining regions (CDRs), which is highly specific to a particular antigen (the foreign substance). The rest of the structure, known as the "constant region," determines the antibody's class (IgG, IgA, IgM, etc.). The variable regions (CDRs) of an antibody have unique sequences and structures that bind to specific epitopes (the part of an antigen recognized by the immune system). This binding is highly specific, akin to a lock and key mechanism. Once an antibody binds to an antigen, it can neutralize the threat directly (e.g., by blocking a virus from entering cells) or mark it for destruction by other immune cells. Beyond their role in the immune system, antibodies are widely used in research, diagnostics, and therapy. Monoclonal antibodies, for instance, are engineered to target specific proteins in diseases like cancer or autoimmune disorders. 
 
-However, developing antibodies that can effectively target new or evolving pathogens is a complex and time-consuming process. Traditionally, developing effective antibodies is a labor intensive process and often need to screen thousands of potential antibodies to find ones that effectively bind to and neutralize a target pathogen. By leveraging the AI, we aim to accelerate the discovery and optimization of antibodies. 
+However, developing antibodies that can effectively target new or evolving pathogens is a complex and time-consuming process. Traditionally, developing effective antibodies is a labor-intensive process and often need to screen thousands of potential antibodies to find ones that effectively bind to and neutralize a target pathogen. By leveraging AI and Machine Learning, we aim to accelerate the discovery and optimization of antibodies. 
 
+## Methods
+### Datasets
+* N/A
+### Software
+#### AI & Machine Learning
+* N/A
+#### Gene Expression & Immune Profiling
+* Python libraries: Pandas (for data manipulation and tabular work), Scanpy (for scRNA processing and cluster plotting), and Anndata (for annotations on top of Scanpy work).
+* IDE: R Studio initially, switch to Jupyter Hub ([see Approach](#gene_approach)).
 
-## Workflow chart for AI-Driven Antibody Design: Enhancing CoV-AbDab with Diffusion Models and Machine Learning
+## Approach
+### AI & Machine Learning
+#### Workflow Chart for AI-Driven Antibody Design: Enhancing CoV-AbDab with Diffusion Models and Machine Learning
 
 ```mermaid
 graph TD
@@ -59,6 +70,9 @@ Work will build on:
 For getting started with Jetstream see: [getting started](/getting-started.md)  
 For adventures after getting started see: [caveats](/caveats.md)  
 
+<a name="gene_approach"></a>
+### Gene Expression & Immunoprofiling
+* N/A
 ## Projects
 ```mermaid
 block-beta
@@ -67,8 +81,8 @@ block-beta
  
 ```
 
-Citations:  
-Hackathons are funded by the National Science Foundation DUE 2055036
+## Citations
+Hackathons are funded by the National Science Foundation DUE 2055036.
 
 Work utalized the Jetstream2 resource:  
 David Y. Hancock, Jeremy Fischer, John Michael Lowe, Winona Snapp-Childs, Marlon Pierce, Suresh Marru, J. Eric Coulter, Matthew Vaughn, Brian Beck, Nirav Merchant, Edwin Skidmore, and Gwen Jacobs. 2021. “Jetstream2: Accelerating cloud computing via Jetstream.” In Practice and Experience in Advanced Research Computing (PEARC ’21). Association for Computing Machinery, New York, NY, USA, Article 11, 1–8. DOI: https://doi.org/10.1145/3437359.3465565
