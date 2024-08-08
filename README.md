@@ -5,7 +5,7 @@
 |----------|----------|----------|
 |Team Lead|Todd Smith|Digital World Biology, LLC|
 |Developer|Timothy Brugarolas|Pasadena City College|
-|Developer, Writer|Wengang Zhang|National Cancer Institute|
+|Developer, Co-Writer|Wengang Zhang|National Cancer Institute|
 |Developer|Vee Xu|Gladstone Institutes|
 
 <br>
@@ -29,11 +29,18 @@ The goal of this year's hackathon was to build off past hackathons and refine pa
 
 ## Methods
 ### Datasets
-* N/A
+#### AI & Machine Learning
+CoV-AbDab database, .csv format. [CoV-AbDab](https://opig.stats.ox.ac.uk/webapps/covabdab/) is a public database documenting all published/patented antibodies and nanobodies able to bind to coronaviruses, including SARS-CoV2, SARS-CoV1, and MERS-CoV. Entries were highly annotated and indicated neutralizing ability, receptor type (antibody, nanobody), data pairing information (heavy and light chains, just heavy, etc.), epitope-binding information, structure information, and virus reactivity among others. Datasets still required time-intensive data processing, however, as they were not in a format conducive to our workflow. The data had ambiguity, potential errors, and non-standardized data entry that needed to be reformatted.
+* **Dataset:** CoV-AbDab_240208 (~13,000 Ab seq)
+#### Gene Expression & Immuneprofiling
+Publically available gene expression data in .csv, .txt format from [NCBI](https://www.ncbi.nlm.nih.gov):
+* **GEO accession:** GSE123813
+* **BioProject:** PRJNA509910
+* **SRA:** SRP173389
 ### Software
 #### AI & Machine Learning
 * N/A
-#### Gene Expression & Immune Profiling
+#### Gene Expression & Immuneprofiling
 * Python libraries: Pandas (for data manipulation and tabular work), Scanpy (for scRNA processing and cluster plotting), and Anndata (for annotations on top of Scanpy work).
 * IDE: R Studio initially, switch to Jupyter Hub ([see Approach](#gene_approach)).
 
@@ -74,7 +81,24 @@ For adventures after getting started see: [caveats](/caveats.md)
 
 <a name="gene_approach"></a>
 ### Gene Expression & Immunoprofiling
-* 
+```mermaid
+  journey
+    title Hackathon 2024 Work Log
+    section August 5, 2024
+      Scanpy Tutorial: 1: Jack
+      TCR Dataset Processing: 1: Ben
+      Patient Dataset Processing: 1: Samhita
+    section August 6, 2024
+      Documentation: 3: Ben
+    section August 7, 2024
+      Clone ID (TCR): 3: Ben
+      scRNA Pre-processing: 3: Jack
+    section August 8, 2024
+      Presentations: 5: Jack, Ben, Samhita
+      Documentation: 5: Samhita
+```
+As an alternative to Seurat (R package), the team used Scanpy and Anndata to process single cell RNA sequencing data in Python via Jupyter Notebooks. This was a calculated decision based off the team's general inexperience with R Studio and the amount of prep work that was needed to: 1) use Scanpy/pre-process scRNA 2) familiarize themselves with tabular data processing 3) understand the current science behind biomarker identification in cancer research. 
+
 ## Projects
 ```mermaid
 block-beta
