@@ -25,6 +25,8 @@ In our immune system, antibodies play an important role in identifying and neutr
 
 However, developing antibodies that can effectively target new or evolving pathogens is a complex and time-consuming process. Traditionally, developing effective antibodies is a labor-intensive process and often need to screen thousands of potential antibodies to find ones that effectively bind to and neutralize a target pathogen. By leveraging AI and Machine Learning, we aim to accelerate the discovery and optimization of antibodies. 
 
+The goal of this year's hackathon was to build off past hackathons and refine past code, give example analysis, annotate reference notebooks, and start on developing glossaries / tutorials for undergraduate research use. A second subteam focused on immunoprofiling and gene expression characterization to test potential data science applications for identifying effective T-cell clones for targeted biomarkers. Both teams used Jupyter Notebooks hosted on Jupyter Hub, all which was hosted using Jetstream2 virtual instances. Publically available immunology datasets were used for both projects. 
+
 ## Methods
 ### Datasets
 * N/A
@@ -72,7 +74,7 @@ For adventures after getting started see: [caveats](/caveats.md)
 
 <a name="gene_approach"></a>
 ### Gene Expression & Immunoprofiling
-* N/A
+* 
 ## Projects
 ```mermaid
 block-beta
@@ -80,7 +82,12 @@ block-beta
     A["Immune Profling & Gene Expression"]  B["ML-base Receptor Classification"]
  
 ```
-
+## Results & Future Work
+### AI & ML
+* N/A
+### Gene Expression & Immunoprofiling
+The Gene Expression team used Pandas, Numpy, and Scanpy to isolate and select for desired data in the given TCR text file. Further extracting resulted in usable table data in the form of viable Post-treatment clones and CD8+ positive response counts. 
+  
 ## Citations
 Hackathons are funded by the National Science Foundation DUE 2055036.
 
