@@ -39,6 +39,10 @@ conda list
 get list of installed packages  
 
 Gotta figure out .bashrc
+And this did not work well, permissions issues  
+Opened up: sudo chmod -R a+wr /opt/anaconda3  
+Still had permission issues.  
+
 ## CUDA
 Challenges with different versions, and GPUs -  
 Software will have dependencies for specific versions. 
