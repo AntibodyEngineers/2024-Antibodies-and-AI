@@ -40,9 +40,8 @@ graph TD
     F --> G[Select Neutralizing Antibody]
     G --> H[RFDiffusion: Partial Diffusion: Diversify Structure]
     H --> I[ProteinMPNN: Generate Sequences]
-    I --> J[Generate Sequences]
     
-    J --> E
+    I --> E
     E -->|Neutralizing| M[Candidate for Screening]
     E -->|Non-neutralizing| N[Discard]
     M --> O[Output: Neutralizing Antibody Candidates]
