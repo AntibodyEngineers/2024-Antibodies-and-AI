@@ -39,7 +39,8 @@ Publically available gene expression data in .csv, .txt format from [NCBI](https
 * **SRA:** SRP173389
 ### Software
 #### AI & Machine Learning
-* N/A
+* [RFdiffusion](https://github.com/RosettaCommons/RFdiffusion), an open-source structure generator
+* [ProteinMPNN](https://github.com/dauparas/ProteinMPNN?tab=readme-ov-file), a deep learning protein sequence generator
 #### Gene Expression & Immuneprofiling
 * Python libraries: Pandas (for data manipulation and tabular work), Scanpy (for scRNA processing and cluster plotting), and Anndata (for annotations on top of Scanpy work).
 * IDE: R Studio initially, switch to Jupyter Hub ([see Approach](#gene_approach)).
@@ -70,6 +71,11 @@ graph TD
     classDef module fill:#f9f,stroke:#333,stroke-width:2px;
     class C,F module;
 ```
+The AI & ML team built off past hackathon work and focused on further filtration and utilizing new [technology repositories]. Two goals were introduced: to see what data the AI trains on best and to see what data makes sense to include versus exclude. They decided upon including data of human origin with the RBD epitope and excluding data that did not have heavy and light chain pairs. Past code was cleaned, and annotations were added to provide educational clarity for future undergraduate researchers using this resource.
+
+In Module 2, another task was implemented - designing an antibody using a diffusion model. The goal of Module 2 was to introduce sequence diversity to the paratope (antigen-binding site on antibody) to optimize the binding affinity between antibody and antigen. The first step was selecting neutralizing antibodies from CovDaB and downloading the corresponding crystal structure from the Protein Data Bank. Then the specified CDR3 region underwent Partial Diffusion to select for similar antibodies that could also improvie binding affinity via spike protein binding. RFdiffusion was used for this but the team discovered that it could only generate protein structure, but not protein sequence. ProteinMPNN was then used to generate protein sequences using the partially diffused structures made in the prior step. 
+
+The protein sequences generated from Partial Diffusion and Sequence Generation were then fed into the cleaned-and-annotated Hackathon script to screen for neutralizing antibodies. All non-neutralizing antibodies were discarded. After the neutralizing antibodies were selected for, AlphaFold was used to predict and visualize structures using the ProteinMPNN-generated sequences as input. The resulting structures were compared to the crystal structures from the Protein Data Bank to assess accuracy. 
 
 Work will build on:
 - [A Gentle Introduction to ML/AI as Applied to Antibody Engineering](https://github.com/NCBI-Codeathons/mlxai-2024-team-smith)
