@@ -1,0 +1,475 @@
+    1  sudo whoami
+    2  whoami
+    3  exit
+    4  ls
+    5  history
+    6  exit
+    7  history
+    8  history 0
+    9  ls
+   10  cd
+   11  ls
+   12  exit
+   13  ls
+   14  history
+   15  ip
+   16  ip address
+   17  ls
+   18  tar -xvf ncbi-igblast-1.22.0-x64-linux.tar.gz 
+   19  ls
+   20  sudo mv ncbi-igblast-1.22.0 /usr/local/igblast
+   21  cd /usr/local/igblast/
+   22  ls
+   23  cd bin/
+   24  ls
+   25  sudo cp * /usr/local/bin/
+   26  igblastn 
+   27  cd
+   28  igblastn -h
+   29  sudo vim /opt/jupyterhub/etc/jupyterhub/jupyterhub_config.py 
+   30  sudo systemctl restart jupyterhub.service 
+   31  ls /media/volume/antibody-data-300G/blastdbs/
+   32  sudo cp /media/volume/antibody-data-300G
+    1  sudo whoami
+    2  whoami
+    3  exit
+    4  ls
+    5  history
+    6  exit
+    7  history
+    8  history 0
+    9  ls
+   10  cd
+   11  ls
+   12  exit
+   13  ls
+   14  history
+   15  ip
+   16  ip address
+   17  ls
+   18  tar -xvf ncbi-igblast-1.22.0-x64-linux.tar.gz 
+   19  ls
+   20  sudo mv ncbi-igblast-1.22.0 /usr/local/igblast
+   21  cd /usr/local/igblast/
+   22  ls
+   23  cd bin/
+   24  ls
+   25  sudo cp * /usr/local/bin/
+   26  igblastn 
+   27  cd
+   28  igblastn -h
+   29  sudo vim /opt/jupyterhub/etc/jupyterhub/jupyterhub_config.py 
+   30  sudo systemctl restart jupyterhub.service 
+   31  ls /media/volume/antibody-data-300G/blastdbs/
+   32  sudo cp /media/volume/antibody-data-300G/blastdbs/ /usr/local/igblast/
+   33  cd /usr/local/igblast/
+   34  ls
+   35  sudo cp -r  /media/volume/antibody-data-300G/blastdbs/ .
+   36  ls
+   37  ls blastdbs/
+   38  cd
+   39  /media/volume/antibody-data-300G/
+   40  ls
+   41  cd /media/volume/antibody-data-300G/
+   42  ls
+   43  cd 2023-data/
+   44  ls
+   45  cd igblast_data/
+   46  ls
+   47  cd ../todd/
+   48  ls
+   49  head SRR4431764merged.fa
+   50  man head
+   51  head -n 1000 SRR4431764merged.fa
+   52  head -n 1000 SRR4431764merged.fa > igblast-test.fa
+   53  ls
+   54  cp igblast-test.fa ~
+   55  cd
+   56  ls
+   57  cd /usr/local/igblast/
+   58  mv blastdbs/ igblastdbs
+   59  ls
+   60  cd
+   61  ls
+   62  tail -f igblast-test.txt 
+   63  wc igblast-test.txt 
+   64  wc igblast-test.txt grep ">" igblast-test.fa | wc
+   65  grep ">" igblast-test.fa | wc
+   66  wc igblast-test.txt 
+   67  ls
+   68  exit
+   69  ls
+   70  cd ..
+   71  ls
+   72  exit
+   73  cd ..
+   74  ls
+   75  sudo useradd -m eric
+   76  sudo passwd eric
+   77  sudo usermod -aG sudo eric
+    1  sudo whoami
+    2  whoami
+    3  exit
+    4  ls
+    5  history
+    6  exit
+    7  history
+    8  history 0
+    9  ls
+   10  cd
+   11  ls
+   12  exit
+   13  ls
+   14  history
+   15  ip
+   16  ip address
+   17  ls
+   18  tar -xvf ncbi-igblast-1.22.0-x64-linux.tar.gz 
+   19  ls
+   20  sudo mv ncbi-igblast-1.22.0 /usr/local/igblast
+   21  cd /usr/local/igblast/
+   22  ls
+   23  cd bin/
+   24  ls
+   25  sudo cp * /usr/local/bin/
+   26  igblastn 
+   27  cd
+   28  igblastn -h
+   29  sudo vim /opt/jupyterhub/etc/jupyterhub/jupyterhub_config.py 
+   30  sudo systemctl restart jupyterhub.service 
+   31  ls /media/volume/antibody-data-300G/blastdbs/
+   32  sudo cp /media/volume/antibody-data-300G/blastdbs/ /usr/local/igblast/
+   33  cd /usr/local/igblast/
+   34  ls
+   35  sudo cp -r  /media/volume/antibody-data-300G/blastdbs/ .
+   36  ls
+   37  ls blastdbs/
+   38  cd
+   39  /media/volume/antibody-data-300G/
+   40  ls
+   41  cd /media/volume/antibody-data-300G/
+   42  ls
+   43  cd 2023-data/
+   44  ls
+   45  cd igblast_data/
+   46  ls
+   47  cd ../todd/
+   48  ls
+   49  head SRR4431764merged.fa
+   50  man head
+   51  head -n 1000 SRR4431764merged.fa
+   52  head -n 1000 SRR4431764merged.fa > igblast-test.fa
+   53  ls
+   54  cp igblast-test.fa ~
+   55  cd
+   56  ls
+   57  cd /usr/local/igblast/
+   58  mv blastdbs/ igblastdbs
+   59  ls
+   60  cd
+   61  ls
+   62  tail -f igblast-test.txt 
+   63  wc igblast-test.txt 
+   64  wc igblast-test.txt grep ">" igblast-test.fa | wc
+   65  grep ">" igblast-test.fa | wc
+   66  wc igblast-test.txt 
+   67  ls
+   68  exit
+   69  ls
+   70  cd ..
+   71  ls
+   72  exit
+   73  cd ..
+   74  ls
+   75  sudo useradd -m eric
+   76  sudo passwd eric
+   77  sudo usermod -aG sudo eric
+   78  su eric
+   79  sudo useradd -m benjamin
+   80  sudo passwd benjamin
+   81  sudo useradd -m ifeoma
+   82  sudo passwd ifeoma
+   83  sudo useradd -m wengang
+   84  sudo passwd wengang
+   85  sudo useradd -m vee
+   86  sudo passwd vee
+   87  ls
+   88  sudo useradd -m samhita
+   89  sudo passwd samhita
+   90  sudo useradd -m victoria
+   91  sudo passwd victoria
+   92  ls
+   93  sudo useradd -m timothy
+   94  sudo passwd timothy
+   95  ls
+   96  cd
+   97  ls
+   98  cd /
+   99  ls
+  100  ls media/
+  101  cd
+  102  ls
+  103  cd ..
+  104  ls
+  105  ls /media/volume/antibody-data-300G/
+  106  ls
+  107  ln -s /media/volume/antibody-data-300G/ data
+  108  sudo ln -s /media/volume/antibody-data-300G/ data
+  109  ls
+  110  cd data
+  111  ls
+  112  cd
+  113  ls ../data
+  114  ls
+  115  cd ..
+  116  ls
+  117  rm data
+  118  sudo rm data
+  119  cd
+  120  su vee
+  121  ls
+  122  cd
+  123  ls
+  124  ln -s /media/volume/antibody-data-300G/ data
+  125  ls
+  126  cd data
+  127  du -sh *
+  128  cd
+  129  ls
+  130  ls -la
+  131  la
+  132  ll
+  133  cd
+  134  cd ..
+  135  ls
+  136  exit
+  137  who
+  138  last
+  139  lastb
+  140  sudo lastb
+  141  which ablang2
+  142  which pip
+  143  gh chmod
+  144  history | grep chmod
+  145  history
+  146  exit
+  147  find . -name ablang2
+  148  find / -name ablang2
+  149  sudo find / -name ablang2
+  150  cd /opt/jupyterhub/lib/python3.10/
+  151  ls -l
+  152  cd site-packages/
+  153  ls -l
+  154  exit
+  155  cd /
+  156  ls 
+  157  cd
+  158  cd ..
+  159  ls jack/
+  160  sudo ls jack
+  161  cd ..
+  162  cd home/
+  163  exit
+  164  cd /opt/jupyterhub/lib/python3.10/site-packages/
+  165  chmod -R a+rw
+  166  chmod -R * a+rw
+  167  chmod -R a+rw *
+  168  sudo chmod -R a+rw *
+  169  ls
+  170  ls -l
+  171  pip
+  172  /opt/jupyterhub/bin/pip
+  173  /opt/jupyterhub
+  174  /opt/jupyterhub/lib/python3.10/site-packages/
+  175  ls -l
+  176  ls /opt/jupyterhub/lib/python3.10/site-packages/
+  177  ls -l /opt/jupyterhub/lib/python3.10/site-packages/
+  178  ls
+  179  cd ../benjamin/
+  180  su benjamin
+  181  sudo ls ../benjamin/
+  182  sudo cp ../benjamin/Untitled.ipynb ben.ipynb
+  183  exit
+  184  ls
+  185  cd ..
+  186  sudo df -sh *
+  187  sudo du -sh *
+  188  cd
+  189  ls
+  190  cd data
+  191  ls
+  192  mdir todd-data
+  193  mkdir todd-data
+  194  cd
+  195  ls -lh
+  196  ls -lah
+  197  cd ..
+  198  sudo du -sh *
+  199  cd 
+  200  du -lah .cache/
+  201  du -sh .cache/
+  202  rm -rf .cache/
+  203  ls
+  204  cd 
+  205  cd ..
+  206  ls
+  207  su wengang
+  208  du -sh *
+  209  sudo du -sh *
+  210  su vee
+  211  sudo chmod -R a+w /opt/jupyterhub/lib/python3.10/site-packages/*
+  212  ls
+  213  sudo du -sh *
+  214  su wengang 
+  215  su vee
+  216  ls
+  217  sudo du -sh *
+  218  sudo rm -rf vee/.local
+  219  sudo du -sh *
+  220  sudo rm -rf vee/.cache
+  221  sudo du -sh *
+  222  sudo rm -rf jack/.local
+  223  sudo du -sh *
+  224  sudo rm -rf jack/.cache
+  225  sudo du -sh *
+  226  sudo rm -rf eric/.cache
+  227  sudo du -sh *
+  228  sudo rm -rf eric/.local
+  229  sudo du -sh *
+  230  sudo rm -rf samhita/.local
+  231  sudo du -sh *
+  232  sudo rm -rf samhita/.cache
+  233  sudo du -sh *
+  234  sudo ls -lh samhita/
+  235  sudo ls -lh eric
+  236  who
+  237  last
+  238  exit
+  239  sudo bash Anaconda-latest-Linux-x86_64.sh
+  240  bash Anaconda-latest-Linux-x86_64.sh
+  241  bash anaconda-latest-Linux-x86_64.sh
+  242  conda
+  243  ls /
+  244  ls /opt/
+  245  sudo bash Anaconda3-2024.06-1-Linux-x86_64.sh 
+  246  conda
+  247  source .bashrc
+  248  conda
+  249  exit
+  250  conda
+  251  less .bashrc
+  252  source /opt/anaconda3/bin/activate
+  253  conda init
+  254  conda
+  255  id
+  256  sudo groupadd mygroup
+  257  sudo groupdel mygroup
+  258  sudo groupadd conda
+  259  sudo chgrp -R conda /opt/anaconda3/
+  260  sudo chmod 770 -R /opt/anaconda3/
+  261  sudo adduser wengang conda
+  262  sudo adduser todd conda
+  263  id
+  264  groups
+  265  sudo adduser conda vee
+  266  sudo adduser vee conda
+  267  id vee
+  268  id todd
+  269  su wengang
+  270  su vee
+  271  ls
+  272  less .bashrc 
+  273  vi .bashrc
+  274  conda list
+  275  id
+  276  su wengang
+  277  id
+  278  adduser todd conda
+  279  sudo adduser todd conda
+  280  sudo conda list
+  281  conda
+  282  source /opt/anaconda3/bin/activate
+  283  source .bashrc
+  284  source /opt/anaconda3/bin/activate
+  285  exit
+  286  id
+  287  conda list
+  288  ls
+  289  history
+  290  conda env create -f env/SE3nv.yml
+  291  conda activate SE3nv
+  292  cd env/SE3Transformer
+  293  pip install --no-cache-dir -r requirements.txt
+  294  python setup.py install
+  295  cd ../.. # change into the root directory of the repository
+  296  pip install -e . # install the rfdiffusion module from the root of the repository
+  297  conda env create -f env/SE3nv.yml
+  298  source .bashrc
+  299  cd
+  300  source .bashrc
+  301  exit
+  302  source .bashrc
+  303  exit
+  304  cd /opt/
+  305  ls -lh
+  306  su wengang
+  307  sudo chmod -R a+rw anaconda3/
+  308  conda
+  309  su wengang
+  310  exit
+  311  umask
+  312  git clone https://github.com/RosettaCommons/RFdiffusion.git
+  313  ls
+  314  cd RFdiffusion/
+  315  cd /opt/anaconda3/
+  316  ls
+  317  ls -l
+  318  su wengang
+  319  exit
+  320  ls
+  321  last
+  322  who
+  323  cuda
+  324  last
+  325  who
+  326  exit
+  327  apt install nvidia-cuda-toolkit
+  328  sudo apt install nvidia-cuda-toolkit
+  329  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
+  330  sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
+  331  wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda-repo-ubuntu2204-12-4-local_12.4.1-550.54.15-1_amd64.de
+b
+  332  sudo dpkg -i cuda-repo-ubuntu2204-12-4-local_12.4.1-550.54.15-1_amd64.deb
+  333  sudo cp /var/cuda-repo-ubuntu2204-12-4-local/cuda-*-keyring.gpg /usr/share/keyrings/
+  334  sudo apt-get update
+  335  sudo apt-get -y install cuda-toolkit-12-4
+  336  sudo apt-get install -y cuda-drivers
+  337  exit
+  338  history
+  339  cd ..
+  340  sudo du -sh *
+  341  cd todd/
+  342  ls
+  343  du -sh *
+  344  rm cuda-repo-ubuntu2204-12-4-local_12.4.1-550.54.15-1_amd64.deb 
+  345  rm Anaconda3-2024.06-1-Linux-x86_64.sh 
+  346  du -sh .c*
+  347  rm .cache/
+  348  rm -rf .cache/
+  349  du -sh .l*
+  350  cd ..
+  351  ls
+  352  exit
+  353  sudo last
+  354  exit
+  355  ls
+  356  sudo find wengang samhita benjamin jack timothy vee eric -maxdepth 1 -name *.ipynb -exec ls -tl {} \;
+  357  cd ..
+  358  sudo find wengang samhita benjamin jack timothy vee eric -maxdepth 1 -name *.ipynb -exec ls -tl {} \;
+  359  sudo find wengang samhita benjamin jack timothy vee eric -maxdepth 1 -name *.ipynb -exec ls -lh {} \;
+  360  ls
+  361  history
+  362  history > gpu-history.txt
+  363  pwd
+  364  cd todd/
+  365  history > gpu-history.txt
