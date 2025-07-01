@@ -96,7 +96,7 @@ sudo systemctl enable jupyterhub.service
 sudo systemctl start jupyterhub.service 
 ```
 The service file launches jupyterhub in the background so that notebooks are always avabile when a system starts, or is restarted. 
-
+Get to your notbook via http://IP:8000
 jupyterhub.service file:
 ```
 [Unit]
