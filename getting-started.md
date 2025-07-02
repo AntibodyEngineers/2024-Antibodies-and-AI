@@ -69,7 +69,11 @@ sudo apt update
 ```
 
 ### JupyterHub
-2025: While Jetstream2 has a pre-installed jupyter that can be lauched from a users account (https://docs.jetstream-cloud.org/general/jupyter/) - the user has to login and to this. What we want is a version that is running in the background for all users.
+2025: While Jetstream2 has a pre-installed jupyter that can be lauched from a users account (https://docs.jetstream-cloud.org/general/jupyter/) - the user has to login and to this. What we want is a version that is running in the background for all users. Also, the first step in getting this working is: 
+```
+load module anaconda
+```
+Which puts you session in anaconda and python3.9. Any libraries installed earler are for python3.10, which is a mess. 
 
 Want JupyterHub for multiuser system (https://jupyterhub.readthedocs.io/en/stable/tutorial/quickstart.html). The quickstart is OK, but installed JupyterHub in a users home directory. Not ideal for multiuser system. We want to have jupyter and common envorment so that users can install packages as needed and have those be avaible for all to use. This section includes a [better version](#better-version) that serves this purpose, and a [first attempt](#first-attempt) to document the kinds of rabbit holes that can be encountered.   
 
